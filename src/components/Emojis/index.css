@@ -1,0 +1,30 @@
+.list-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  width: 45%;
+  min-width: 30px;
+}
+
+.emoji-name {
+  color: #1e293b;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .emoji {
+    width: 40%;
+  }
+
+  .emoji-name {
+    font-size: 12px;
+  }
+}

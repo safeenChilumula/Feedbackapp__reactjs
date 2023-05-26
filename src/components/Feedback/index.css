@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-cart-container {
+  background-color: #ffffff;
+  padding: 43px;
+  padding-top: 48px;
+  padding-bottom: 45px;
+  border-radius: 12px;
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-family: 'roboto';
+  width: 90%;
+}
+
+.love-img {
+  width: 48px;
+}
+
+.description {
+  color: #1e293b;
+  font-family: 'roboto';
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .emoji-cart-container {
+    padding: 18px;
+    padding-top: 23px;
+  }
+  .heading {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
